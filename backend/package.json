@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "packageManager": "yarn@4.5.1",
+  "dependencies": {
+    "cors": "2.8.5",
+    "http": "0.0.1-security",
+    "uuid": "11.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2",
+    "@types/node": "22.9.0",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start": "tsc server.ts && node server.js"
+  }
+}
